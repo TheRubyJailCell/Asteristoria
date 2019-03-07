@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @constellation.name %>
+</p>
+
+<p>
+  <strong>Scientific name:</strong>
+  <%= @constellation.scientific_name %>
+</p>
+
+<p>
+  <strong>Number of stars:</strong>
+  <%= @constellation.number_of_stars %>
+</p>
+
+<p>
+  <strong>Discovery date:</strong>
+  <%= @constellation.discovery_date %>
+</p>
+
+<p>
+  <strong>Season of sight:</strong>
+  <%= @constellation.season_of_sight %>
+</p>
+
+<p>
+  <strong>Myth:</strong>
+  <%= @constellation.myth %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @constellation.image %>
+</p>
+
+<%= link_to 'Edit', edit_constellation_path(@constellation) %> |
+<%= link_to 'Back', constellations_path %>

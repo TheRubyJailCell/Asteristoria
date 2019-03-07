@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Constellations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Scientific name</th>
+      <th>Number of stars</th>
+      <th>Discovery date</th>
+      <th>Season of sight</th>
+      <th>Myth</th>
+      <th>Image</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @constellations.each do |constellation| %>
+      <tr>
+        <td><%= constellation.name %></td>
+        <td><%= constellation.scientific_name %></td>
+        <td><%= constellation.number_of_stars %></td>
+        <td><%= constellation.discovery_date %></td>
+        <td><%= constellation.season_of_sight %></td>
+        <td><%= constellation.myth %></td>
+        <td><%= constellation.image %></td>
+        <td><%= link_to 'Show', constellation %></td>
+        <td><%= link_to 'Edit', edit_constellation_path(constellation) %></td>
+        <td><%= link_to 'Destroy', constellation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Constellation', new_constellation_path %>
