@@ -23,9 +23,11 @@ h1 {
 
 body {
 	font-family: 'Roboto Mono', monospace;
+	font-size: 30px;
 	background-color: #34006E;
 	color: #FFFCC5;
 	text-align: center;
+	margin: 5px 30px;
 }
 
 a {
