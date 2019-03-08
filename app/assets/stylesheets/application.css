@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+	font-family: 'Srisakdi', cursive;
+	text-align: center;
+	height: 20px;
+	font-size: 60px;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-color: #34006E;
+	color: #FFFCC5;
+}
+
+a {
+	color: #FFFC7F;
+	text-decoration: none;
+}
