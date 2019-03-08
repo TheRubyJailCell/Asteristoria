@@ -6,8 +6,8 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Scientific name</th>
-      <th>Number of stars</th>
+      <th>Latin name</th>
+      <th>Number of main stars</th>
       <th>Discovery date</th>
       <th>Season of sight</th>
       <th>Myth</th>
@@ -20,8 +20,8 @@
     <% @constellations.each do |constellation| %>
       <tr>
         <td><%= constellation.name %></td>
-        <td><%= constellation.scientific_name %></td>
-        <td><%= constellation.number_of_stars %></td>
+        <td><%= constellation.latin_name %></td>
+        <td><%= constellation.number_of_main_stars %></td>
         <td><%= constellation.discovery_date %></td>
         <td><%= constellation.season_of_sight %></td>
         <td><%= constellation.myth %></td>
