@@ -26,9 +26,9 @@
         <td><%= constellation.season_of_sight %></td>
         <td><%= constellation.myth %></td>
         <td><%= image_tag constellation.image %></td>
-        <td><%= link_to 'Show', constellation %></td>
-        <td><%= link_to 'Edit', edit_constellation_path(constellation) %></td>
-        <td><%= link_to 'Destroy', constellation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="show"><%= link_to 'Show', constellation %></td>
+        <td class="edit"><%= link_to 'Edit', edit_constellation_path(constellation) %></td>
+        <td class="destroy" ><%= link_to 'Destroy', constellation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

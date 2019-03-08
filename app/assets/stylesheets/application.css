@@ -25,9 +25,18 @@ body {
 	font-family: 'Roboto Mono', monospace;
 	background-color: #34006E;
 	color: #FFFCC5;
+	text-align: center;
 }
 
 a {
 	color: #FFFC7F;
 	text-decoration: none;
+}
+
+.destroy {
+	display: none;
+}
+
+.edit {
+	display: none;
 }
