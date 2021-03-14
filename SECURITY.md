@@ -4,6 +4,7 @@
 
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
+This was a school project. All the infos you input in there will stay in. Beware what you input.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -19,3 +20,5 @@ Use this section to tell people how to report a vulnerability.
 Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
+
+I'm likely not going to update this again - tho you can always PM if you have any comments!
